@@ -30,3 +30,9 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 
 ### end docker install gcp
+
+git config --global user.email "cbh@cameo.tw"
+git config --global user.name "bohachu"
+git config --global credential.helper cache
+git config --global credential.helper store
+
